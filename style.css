@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+    padding: 0;
+}
+
+.topProducts h2 {
+    text-align: center;
+}
+
+.topProducts p {
+    text-align: center;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+}
+
+.currentPrice {
+    color: red;
+}
+
+.showItem {
+    display: none;
+    transition: 200ms;
+}
+
+.active {
+    display: inline-block;
+}
